@@ -1,2 +1,7 @@
-# badrnezhad.github.io
-Resume
+# HosseinBadrnezhad
+Resume HTML CSS
+
+[+] Pure HTML + CSS code
+
+[+] Responsive
+

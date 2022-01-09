@@ -1,0 +1,200 @@
+@font-face {
+  font-family: ubunto;
+  src: url("src/fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202124;
+  font-family: ubunto;
+}
+
+hr {
+  margin: 0 auto;
+  border-color: #808080;
+  height: 1px;
+}
+
+i.fa {
+  color: #bb86fc;
+}
+
+.pb100 {
+  width: 100%;
+}
+
+.pb80 {
+  width: 80%;
+}
+
+.pb70 {
+  width: 70%;
+}
+
+.pb60 {
+  width: 60%;
+}
+
+.pb40 {
+  width: 40%;
+}
+
+.label {
+  padding: 3px 5px;
+  background-color: #bb86fc;
+  border-radius: 5px;
+}
+
+.container {
+  width: 98%;
+  padding: 1%;
+}
+
+.left-side {
+  background-color: #303134;
+  display: inline-block;
+  width: 25%;
+  margin: 0.5%;
+  vertical-align: top;
+  border-radius: 3px;
+}
+
+.right-side {
+  display: inline-block;
+  width: 72%;
+  margin: 0.5%;
+  vertical-align: top;
+}
+
+.right-side section {
+  background-color: #303134;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+.right-side a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#profile-box {
+  position: relative;
+}
+
+#profile-box #profile-image {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+#profile-box #profile-name {
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  font-size: 21px;
+}
+
+#description-box {
+  padding: 15px;
+}
+
+#description-box ul {
+  list-style: none;
+}
+
+#description-box ul li {
+  margin-bottom: 15px;
+}
+
+#description-box ul li i.fa {
+  color: #bb86fc;
+  font-size: 18px;
+}
+
+#description-box ul li span,
+#description-box ul li a {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.aside-items {
+  padding: 15px;
+  color: #fff;
+  margin: 5px 0 25px;
+}
+
+.item-title {
+  margin-left: 5px;
+}
+
+.skill-item {
+  margin-top: 15px;
+}
+
+.progress-box {
+  background-color: #eee;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.progress-box .progress-bar {
+  background-color: #bb86fc;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+.head-title {
+  font-size: 32px;
+  color: #fff;
+}
+
+.right-side-item {
+  color: #fff;
+}
+
+.right-side-item h3,
+.right-side-item h4 {
+  margin: 18.5px 0;
+}
+
+.right-side-item p {
+  margin: 15px 0 40px;
+}
+
+footer {
+  background-color: #bb86fc;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-side {
+    display: block;
+    width: 99%;
+  }
+
+  .right-side {
+    display: block;
+    width: 99%;
+  }
+}
